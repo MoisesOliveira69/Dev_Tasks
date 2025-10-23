@@ -39,7 +39,7 @@ DevTasks é uma aplicação web moderna e responsiva para gerenciamento de taref
 
 ## 🔗 Link do projeto
 
-[🔗 Acesse o DevTasks online](https://github.com/MoisesOliveira69/Dev_Tasks)
+[🔗 Acesse o DevTasks online](https://moisesoliveira69.github.io/Dev_Tasks/)
 
 ---
 
