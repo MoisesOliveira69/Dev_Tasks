@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>DevTasks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>DevTasks</h1>
+      <p>Organize suas tarefas com estilo</p>
+    </header>
+
+    <section class="controls">
+      <input type="text" id="task-input" placeholder="Digite uma tarefa...">
+      <button onclick="addTask()"><i class="fas fa-plus"></i> Adicionar</button>
+    </section>
+
+    <section class="filters">
+      <button onclick="filterTasks('all')" id="btn-all">Todas</button>
+      <button onclick="filterTasks('pending')" id="btn-pending">Pendentes</button>
+      <button onclick="filterTasks('completed')" id="btn-completed">Concluídas</button>
+    </section>
+
+    <ul id="task-list"></ul>
+
+    <footer>
+      <p>Feito por Moisés • Front-End Dev</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
